@@ -48,3 +48,5 @@ if (WIN32)
                 "$<TARGET_FILE_DIR:${PROJECT_NAME}>")
     endforeach (QT_LIB)
 endif ()
+
+add_subdirectory(src/libs/qExtensionSystem)
